@@ -1,0 +1,169 @@
+.logo{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.bilgi{
+ 
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 50px;
+    padding: 0px;
+
+}
+.menü{
+    float: right;
+     list-style: none;
+     display: block;
+    margin: 0px;
+    }
+.menü li{
+    float:left;
+        position: relative;
+        display: inline;
+        margin-left: 25px;
+        padding: 0px;
+        font-size: 22px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }  
+a {
+        text-decoration: none;
+        color: rgb(90, 73, 73);
+    }
+      
+ a:hover {
+     /* Üzerine Geldiginde */
+        color: #E36D5B;
+        text-decoration: none;
+    }
+      
+      
+a:active {
+    /* Tıkladığı Anda*/
+        color: #000000 ;
+        
+    }
+
+.nav{
+    height: auto;
+}
+.img  {
+    background-image: url(6.jpg);
+    height: 970px;
+}
+.fabrika, .message{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    margin-left: 200px;
+    background-color:#ffffff;
+    opacity:0.7;
+    filter:alpha(opacity=80);
+    padding: 0px 10px 0px 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.message{
+    margin-left: 480px;
+
+}
+  
+.frame {
+  
+    margin-top: 20px;
+}
+h1{
+    font-size: 26px;
+    margin-left: px;
+    margin-top: 20px;
+}
+label{
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.h{
+     font-size: 25px;
+     color: red;
+     margin: 3px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ion-icon {
+    font-size: 25px;
+    color: rosybrown;
+
+}
+.table td , tr{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding:5px 0px 5px 0px;
+}
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    border-color: white;
+    border: 0px;
+    margin:20px 0px 0px 110px ;
+    width: 75px;
+}
+.button:hover{
+    color: red;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: -50px;
+}
+ol li {
+    float:left;
+    position: relative;
+    display: inline;
+    margin-left: 25px;
+    padding: 0px;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+.fot-p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 20px;
+}
+.wrapper {
+    display: inline-flex;
+    justify-content: center;
+    float: right;
+}
+.wrapper i {
+    padding: 10px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out 150ms;
+}
+.wrapper a:nth-child(1) {
+    color: #dd4c3983;
+}
+.wrapper a:nth-child(2) {
+    color: #dd4c3983;
+}
+.wrapper a:nth-child(3) {
+    color: #dd4c3983;
+}
+.wrapper i:hover {
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+ol li :hover{
+    float:left;
+    position: relative;
+    display: inline;
+    margin-left: 25px;
+    padding: 0px;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+   margin-left: 0px;
+   text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+}
